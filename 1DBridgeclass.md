@@ -26,6 +26,8 @@ Understanding how a computer works and the role of the Operating System is the b
 The following course is offered through EDX and was created by NYU:
 https://courses.edx.org/courses/course-v1:NYUx+FCS.OS.1+1T2020/course/
 
+This course is relatively short with 5 lectures rangning from 50 minutes to 1 hour 40 minutes.
+
 ### Networking 
 
 Understanding how computers communicate with each other is a basic concept necessary to work with cloud tech, multi container setups, 
@@ -34,10 +36,14 @@ We will later revisit networking for a special topic, SSH proxies, that is neede
 
 https://courses.edx.org/courses/course-v1:NYUx+FCS.NET.1+1T2020/course/
 
+Please make sure to at least audit lectures 1 to 4 (Network Layer)
+
 ### LINUX
 Most server infrastructure in use today is based in LINUX systems. MacOS too has a LINUX system at its core. Understanding the principles of this specific brand of operating systems and finding your way around in it is fundamental to this program. Many tools today abstract away the complexity of the underlying system but in order to debug a problem or create a new way of using modern tools will bring you back to digging deeper into LINUX.
 The following EDX course is made and maintained by the LinuxFoundation.
 https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS101x+1T2020/course/
+
+Please go through at minimum chapters 3, 7 - 16, and 18. In chapter 14 you can skip directly to Networking configuration tools if you have finished the networking class before. You may also skip 9 if you are familar with ps and top and have finished the OS lecture above.
 
 To get extra practice the linux survival tutorial allows you to test your skill in an interactive, gamified way. This is optional: https://linuxsurvival.com/linux-tutorial-introduction/
 
@@ -45,10 +51,7 @@ To get extra practice the linux survival tutorial allows you to test your skill 
 Shell scripting is part of each LINUX class and you probably have received your first practice going through the LINUX course. Being able to use Shell scripting in an efficient way has more to it than can be covered in a general LINUX class. A great and interactive way to learn it is 
 on https://www.learnshell.org/
 
-A concept usually not covered by basic scripting classes is HEREDOCS, you will need this in the advanced classes in this program: https://linuxhint.com/bash-heredoc-tutorial/
-
-### SSH Proxies
-SSH is briefly covered in the LINUX course. A specific use case for SSH are SSH proxies. The following tutorial covers this topic: https://daniel.haxx.se/docs/sshproxy.html
+A concept usually not covered by basic scripting classes is HEREDOCS, you will need this in the advanced classes in the MIDS program: https://linuxhint.com/bash-heredoc-tutorial/
 
 ### Additional Readings:
 
