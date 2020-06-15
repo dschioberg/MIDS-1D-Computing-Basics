@@ -10,15 +10,14 @@ Objectives of this course:
 * Computer Networks
 * LINUX
 * Learn basics of important tools:
-* Linux command line
-* Git and GitHub
-* Shell scripting
+  * Linux command line
+  * Git and GitHub
+  * Shell scripting
 
 ### How to use this course:
 This course guides you through a series of FREE online classes. For example in EDX you can select the Audit only option, 
-the paid certificate is not necessary. After each external course please come back to this document and find a link to a test, 
-follow the instructions given to prove completion of the course. Alternatively you can prove your knowledge through having finished 
-a CS undergrad or corresponding work experience.
+the paid certificate is NOT necessary. After each external course please come back to this document and find a link to a test, 
+follow the instructions given to prove completion of the course. Alternatively you can prove your knowledge through having finished a CS undergrad or corresponding work experience.
 
 ### Operating systems
 Understanding how a computer works and the role of the Operating System is the basis for any work with cloud technology and distributed computing as is the standard for many big data and machine learning approaches.
@@ -52,6 +51,14 @@ Shell scripting is part of each LINUX class and you probably have received your 
 on https://www.learnshell.org/
 
 A concept usually not covered by basic scripting classes is HEREDOCS, you will need this in the advanced classes in the MIDS program: https://linuxhint.com/bash-heredoc-tutorial/
+
+### Git and GitHub
+"Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows." - Wikipedia
+Git is an essential tool used across most modern tech companies. In the MIDS program you will need to be able to use git together with GitHub (a platform hosting Git repositories). You will be required to work with git from the commandline, local and remote locations such as VMs in the cloud. 
+
+- To get started on basic git: https://www.codecademy.com/learn/learn-git
+- Using github: https://guides.github.com/activities/hello-world/
+- optional: deeper dive into git and github https://try.github.io/
 
 ### Additional Readings:
 
