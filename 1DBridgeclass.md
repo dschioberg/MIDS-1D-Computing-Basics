@@ -1,8 +1,8 @@
-## MIDS Computing Basics Bridge Class
+# MIDS Computing Basics Bridge Class
 
 In the MIDS program we teach concepts and tools around data science and machine learning. While we offer our students introductory classes for Python and Statistics, we cannot deliver basic computation skills that are usually taught in a full Bachelor program CS. To cover this gap this bridge course gives resources to learn the most important concepts and tools required to successfully complete the MIDS program.
 
-### Goals and Objectives
+## Goals and Objectives
 This course has the objective to give resources for self learning and test the students’ skill level in the end. Students who already know the content can skip ahead to the tests. 
 Objectives of this course:
 * Acquire basic knowledge/terminology about:
@@ -14,10 +14,25 @@ Objectives of this course:
   * Git and GitHub
   * Shell scripting
 
-### How to use this course:
+## How to use this course:
 This course guides you through a series of FREE online classes. For example in EDX you can select the Audit only option, 
-the paid certificate is NOT necessary. After each external course please come back to this document and find a link to a test, 
-follow the instructions given to prove completion of the course. Alternatively you can prove your knowledge through having finished a CS undergrad or corresponding work experience.
+the paid certificate is NOT necessary. 
+The courses are in a order we think will be most efficient for learners but the are self contained and can be taken in any order.
+Each topic ends with a series of multiple choice questions, a short quiz. These quizzes are not graded and the answers directly follow each questions. They 
+function as self assessment to give you an idea where you stand in the topic, i.e., if you should definitely take the course or can skip the segment.
+At the end you will have to take an exam (find the link at the end of this doc). You will have to solve the given problem and write two reviews for the solution 
+others have submitted to show your thorrough understanding of the material.
+
+Alternatively you can prove your knowledge through having finished a CS undergrad or corresponding work experience - please speak to the faculty in that case.
+
+## Courses in this class
+
+The big topics are 
+* Operating systems: have an understanding
+* Networking: the network stack and an overview on protocols
+* LINUX: have a working knowledge of the LINUX operating system
+* Shell scripting (optional): this is an extension and a deep dive of topics covered in the LINUX class. You will need HEREDOCS in later classes though.
+* Git and GitHub: You need to be able to use git from the web UI and the commandline, know branching, reversing, have good workflow habits.
 
 ### Operating systems
 Understanding how a computer works and the role of the Operating System is the basis for any work with cloud technology and distributed computing as is the standard for many big data and machine learning approaches.
@@ -26,6 +41,33 @@ The following course is offered through EDX and was created by NYU:
 https://courses.edx.org/courses/course-v1:NYUx+FCS.OS.1+1T2020/course/
 
 This course is relatively short with 5 lectures rangning from 50 minutes to 1 hour 40 minutes.
+
+<details>
+  <summary>Quiz - click to see</summary>
+
+  1. What is an operating system?<br>
+    (a) a collection of programs that manages hardware resources<br>
+    (b) a system service provider to the application programs<br>
+    (c) a link to interface the hardware and application programs<br>
+    (d) all of the above
+
+  <details>
+    <summary>Answer</summary>
+    d - all of the above
+  </details>
+
+  2. What is interprocess communication?<br>
+    (a) communication within the process<br>
+    (b) communication between two processes<br>
+    (c) communication between two threads of the same process<br>
+    (d) none of the mentioned
+  
+  <details>
+    <summary>Answer</summary>
+    b - communication between two processes
+  </details>  
+</details>  
+
 
 ### Networking 
 
