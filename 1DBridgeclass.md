@@ -19,7 +19,7 @@ This course guides you through a series of FREE online classes. For example in E
 the paid certificate is NOT necessary. 
 The courses are in a order we think will be most efficient for learners but the are self contained and can be taken in any order.
 Each topic ends with a series of multiple choice questions, a short quiz. These quizzes are not graded and the answers directly follow each questions. They 
-function as self assessment to give you an idea where you stand in the topic, i.e., if you should definitely take the course or can skip the segment.
+function as self assessment to give you an idea where you stand in the topic, i.e., if you should definitely take the course or maybe can skip the segment.
 At the end you will have to take an exam (find the link at the end of this doc). You will have to solve the given problem and write two reviews for the solution 
 others have submitted to show your thorrough understanding of the material.
 
