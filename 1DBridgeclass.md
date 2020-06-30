@@ -23,7 +23,7 @@ function as self assessment to give you an idea where you stand in the topic, i.
 At the end you will have to take an exam (find the link at the end of this doc). You will have to solve the given problem and write two reviews for the solution 
 others have submitted to show your thorrough understanding of the material.
 
-Alternatively you can prove your knowledge through having finished a CS undergrad or corresponding work experience - please speak to the faculty in that case.
+Alternatively you can prove your knowledge through having finished a CS undergrad or corresponding work experience - please speak to your admissions counsellor or your student success advisor.
 
 ## Courses in this class
 
@@ -40,7 +40,7 @@ Understanding how a computer works and the role of the Operating System is the b
 The following course is offered through EDX and was created by NYU:
 https://courses.edx.org/courses/course-v1:NYUx+FCS.OS.1+1T2020/course/
 
-This course is relatively short with 5 lectures rangning from 50 minutes to 1 hour 40 minutes.
+This course is relatively short with 5 lectures rangning from 50 minutes to 1 hour 40 minutes. Please do not skip over weeks 3 and 4.
 
 <details>
   <summary>Quiz - click to see</summary>
@@ -65,7 +65,31 @@ This course is relatively short with 5 lectures rangning from 50 minutes to 1 ho
   <details>
     <summary>Answer</summary>
     b - communication between two processes
-  </details>  
+  </details>
+  
+  3. The CPU fetches the instruction from memory according to the value of the<br>
+    (a) program counter<br>
+    (b) status register<br>
+    (c) instruction register<br>
+    (d) program status word<br>
+  <details>
+    <summary>Answer</summary>
+    a - The CPU fetches instructions from memory according to the value of the program counter. 
+    These instructions may cause additional loading from and storing to specific memory addresses
+  </details>
+  
+  4. The memory management technique in which the system stores and retrieves data from secondary storage for use in main memory is called?<br>
+    (a) fragmentation<br>
+    (b) paging<br>
+    (c) mapping<br>
+    (d) none of the mentioned<br>
+  <details>
+    <summary>Answer</summary>
+    b - paging
+  </details>
+  
+  5. 
+
 </details>  
 
 
