@@ -1,4 +1,4 @@
-# MIDS Computing Basics Bridge Class
+# MIDS 1D Computing Basics
 
 In the MIDS program we teach concepts and tools around data science and machine learning. While we offer our students introductory classes for Python and Statistics, we cannot deliver basic computation skills that are usually taught in a full Bachelor program CS. To cover this gap this bridge course gives resources to learn the most important concepts and tools required to successfully complete the MIDS program.
 
