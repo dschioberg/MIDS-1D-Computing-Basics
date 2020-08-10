@@ -1,9 +1,9 @@
 # MIDS 1D Computing Basics
 
-In the MIDS program we teach concepts and tools around data science and machine learning. While we offer our students introductory classes for Python and Statistics, we cannot deliver basic computation skills that are usually taught in a full Bachelor program CS. To cover this gap this bridge course gives resources to learn the most important concepts and tools required to successfully complete the MIDS program.
+In the MIDS program we teach concepts and tools around data science and machine learning. While we offer our students introductory classes for Python and Statistics, we cannot deliver basic computation skills that are usually taught in a full Bachelor program CS. To cover this gap this course gives resources to learn the most important concepts and tools required to successfully complete the MIDS program.
 
 ## Goals and Objectives
-This course has the objective to give resources for self learning and test the students’ skill level in the end. Students who already know the content can skip ahead to the tests. 
+This course has the objective to give resources for self learning and test the student's skill level in the end. Students who already know the content can skip ahead to the tests. 
 Objectives of this course:
 * Acquire basic knowledge/terminology about:
 * Operating systems
@@ -24,6 +24,12 @@ At the end you will have to take an exam (find the link at the end of this doc).
 others have submitted to show your thorrough understanding of the material.
 
 Alternatively you can prove your knowledge through having finished a CS undergrad or corresponding work experience - please speak to your admissions counsellor or your student success advisor.
+
+## Minimum technical requirements:
+* Access to a Linux machine. This can be a cloud machine, a virtual machine on your local computer, or a Linux sub system on Windows. The test material was tested on Ubuntu 20.04.1 LTS.
+* Root access, i.e., admin rights on the system. You need to be able to install software and execute software as root.
+* An Internet connection.
+* An account on github.com. You can use your personal or work email address to set that up or your UC Berkeley address.
 
 ## Courses in this class
 
