@@ -84,18 +84,25 @@ This course is relatively short with 5 lectures rangning from 50 minutes to 1 ho
     These instructions may cause additional loading from and storing to specific memory addresses
   </details>
   
-  4. The memory management technique in which the system stores and retrieves data from secondary storage for use in main memory is called?<br>
-    (a) fragmentation<br>
-    (b) paging<br>
-    (c) mapping<br>
-    (d) none of the mentioned<br>
+  4. Which one of the following is not shared by threads?<br>
+    (a) program counter<br>
+    (b) stack<br>
+    (c) both program counter and stack<br>
+    (d) none of the mentioned<br>  
   <details>
     <summary>Answer</summary>
-    b - paging
+    c
   </details>
   
-  5. 
-
+  5. If one thread opens a file with read privileges then<br>
+    (a) other threads in another process can also read from that file<br>
+    (b) other threads in the same process can also read from that file<br>
+    (c) any other thread can not read from that file<br>
+    (d) all of the mentioned<br>
+  <details>
+    <summary>Answer</summary>
+    b
+  </details>
 </details>  
 
 
@@ -109,6 +116,61 @@ https://courses.edx.org/courses/course-v1:NYUx+FCS.NET.1+1T2020/course/
 
 Please make sure to at least audit lectures 1 to 4 (Network Layer)
 
+<details>
+  <summary>Quiz - click to see</summary>
+
+  1. Which of the following is private IP address?<br>
+    (a)	12.0.0.1<br>
+    (b)	168.172.19.39<br>
+    (c)	172.15.14.36<br>
+    (d) 192.168.24.43<br>
+    
+  <details>
+    <summary>Answer</summary>
+    d - Class A private address range is 10.0.0.0 through 10.255.255.255. Class B private address range is 172.16.0.0 through 172.31.255.255, and Class C private address range is 192.168.0.0 through 192.168.255.255.
+  </details>
+
+  2. What protocol is used to find the hardware address of a local device?<br>
+    (a)	RARP<br>
+    (b)	ARP<br>
+    (c)	IP<br>
+    (d) ICMP<br>  
+  <details>
+    <summary>Answer</summary>
+    b - Address Resolution Protocol (ARP) is used to find the hardware address from a known IP address.
+  </details>
+  
+  3. Which of the following addresses is used to deliver a message to the correct application program running on a host?<br>
+    (a) Port<br>
+    (b) IP<br>
+    (c) Logical<br>
+    (d) Physical<br>
+  <details>
+    <summary>Answer</summary>
+    a 
+  </details>    
+  
+  4. The values GET, POST, HEAD etc are specified in which line of the HTTP message?<br>
+    (a) Request line<br>
+    (b) Header line<br>
+    (c) Status line<br>
+    (d) Entity body
+  <details>
+    <summary>Answer</summary>
+    a - It is specified in the method field of request line in the HTTP request message.
+  </details>        
+  
+  5. Connection establishment in TCP is done by which mechanism?<br>
+    (a) Flow control<br>
+    (b) Three-Way Handshaking<br>
+    (c) Forwarding<br>
+    (d) Synchronization<br>
+  <details>
+    <summary>Answer</summary>
+    b - A three-way handshake allows both, the server and the client to choose their Initial Sequence Number and inform the other party about it. 
+  </details>      
+</details>  
+
 ### LINUX
 Most server infrastructure in use today is based in LINUX systems. MacOS too has a LINUX system at its core. Understanding the principles of this specific brand of operating systems and finding your way around in it is fundamental to this program. Many tools today abstract away the complexity of the underlying system but in order to debug a problem or create a new way of using modern tools will bring you back to digging deeper into LINUX.
 The following EDX course is made and maintained by the LinuxFoundation.
@@ -118,11 +180,76 @@ Please go through at minimum chapters 3, 7 - 16, and 18. In chapter 14 you can s
 
 To get extra practice the linux survival tutorial allows you to test your skill in an interactive, gamified way. This is optional: https://linuxsurvival.com/linux-tutorial-introduction/
 
+<details>
+  <summary>Quiz - click to see</summary>
+
+  1. What approach does an application use to communicate with the kernel?<br>
+    (a) System Calls<br>
+    (b) C Programs<br>
+    (c) Shell Script<br>
+    (d) Shell<br>
+  <details>
+    <summary>Answer</summary>
+    a  
+  </details>
+
+  2. Which command creates an empty file if it does not exist?<br>
+    (a) cat<br>
+    (b) touch<br>
+    (c) ed<br>
+    (d) read<br>
+    
+  <details>
+    <summary>Answer</summary>
+    b 
+  </details>
+  
+  3. Which command is used to change permissions of files and directories?<br>
+    (a) mv<br>
+    (b) chgrp<br>
+    (c) chmod<br>
+    (d) set<br>
+  <details>
+    <summary>Answer</summary>
+    c 
+  </details>    
+  
+  4. What would be the current working directory at the end of the following command sequence?<br>
+     Code:
+   
+    $ pwd
+    /home/user1/proj
+    $ cd  src
+    $ cd  generic
+    $ cd  .
+    $ pwd
+   <br>
+    (a) /home/user1/proj<br>
+    (b) /home/user1/proj/src<br>
+    (c) /home/user1<br>
+    (d) /home/user1/proj/src/generic<br>
+  <details>
+    <summary>Answer</summary>
+    d
+  </details>        
+  
+  5. What is a shell in UNIX?<br>
+    (a) a program through which users can issue commands to UNIX<br>
+    (b) a window management system<br>
+    (c) the login screen<br>
+    (d) the thing that rides on the back of a turtle in UNIX
+    
+  <details>
+    <summary>Answer</summary>
+    a
+  </details>      
+</details>  
+
 ### Shell scripting
 Shell scripting is part of each LINUX class and you probably have received your first practice going through the LINUX course. Being able to use Shell scripting in an efficient way has more to it than can be covered in a general LINUX class. A great and interactive way to learn it is 
 on https://www.learnshell.org/
 
-A concept usually not covered by basic scripting classes is HEREDOCS, you will need this in the advanced classes in the MIDS program: https://linuxhint.com/bash-heredoc-tutorial/
+A concept usually not covered by basic scripting classes is HEREDOCS, you will need this in the advanced classes in the MIDS program and also to solve the challenge that follows this course: https://linuxhint.com/bash-heredoc-tutorial/
 
 ### Git and GitHub
 "Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows." - Wikipedia
@@ -132,6 +259,61 @@ Git is an essential tool used across most modern tech companies. In the MIDS pro
 - Using github: https://guides.github.com/activities/hello-world/
 - optional: deeper dive into git and github https://try.github.io/
 
+<details>
+  <summary>Quiz - click to see</summary>
+
+  1. Git<br>
+    (a)	is a distributed version control system<br>
+    (b)	is an operating system<br>
+    (c)	can have branches<br>
+    (d) saves everything automatically<br>
+    
+  <details>
+    <summary>Answer</summary>
+    a and c - Always commit and push your progress!
+  </details>
+
+  2. Which of the following statements would create branch named as "mids"?<br>
+    (a) ```git checkout -b mids```<br>
+    (b) ```git checkout -c mids```<br>
+    (c) ```git check -b mids```<br>
+    (d) none of the mentioned<br>
+  <details>
+    <summary>Answer</summary>
+    a
+  </details>
+  
+  3. To sync a commit to a remote repository, e.g. on GitHub you need the command<br>
+    (a) ```git pull```<br>
+    (b) ```git sync```<br>
+    (c) ```git push```<br>
+    (d) ```git commit```<br>
+  <details>
+    <summary>Answer</summary>
+    c - git commit only affects your local repository. 
+  </details>    
+  
+  4. To download a copy of this repository you should execute<br>
+    (a) ```git clone``` on your local computer<br>
+    (b) ```git download``` on your local computer<br>
+    (c) ```git get```<br>
+    (d) none of the above<br>
+  <details>
+    <summary>Answer</summary>
+    a
+  </details>        
+  
+  5. To clone this reppository you need the URL found on the top of this page. The correct URL to clone is<br>
+    (a) https://github.com/dschioberg/MIDS-1D-Computing-Basics.wav<br>
+    (b) https://github.com/dschioberg/MIDS-1D-Computing-Basics.html<br>
+    (c) https://github.com/dschioberg/MIDS-1D-Computing-Basics.mp3<br>
+    (d) https://github.com/dschioberg/MIDS-1D-Computing-Basics.git<br>
+  <details>
+    <summary>Answer</summary>
+    d 
+  </details>      
+</details> 
+
 ### Additional Readings:
 
 * Kurose, Ross: Computer Networking - A Top Down Approach:
@@ -139,5 +321,9 @@ http://www.bau.edu.jo/UserPortal/UserProfile/PostsAttach/10617_1870_1.pdf
 * Linux For Beginners by Jason Cannon
 * The Linux Command Line : A Complete Introduction by William Shotts
 * Modern Operating Systems by Andrew S. Tanenbaum
+
+## The Challenge
+To prove your skills please take this challenge: https://app.mooqita.org/app/solution?challenge_id=ML7NuCxE2BWWvYFbT.
+For questions reach out to dschib@berkeley.edu and subscribe to the ISchool slack channel #1d-computing-basics.
 
 
