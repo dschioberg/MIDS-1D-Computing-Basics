@@ -323,7 +323,9 @@ http://www.bau.edu.jo/UserPortal/UserProfile/PostsAttach/10617_1870_1.pdf
 * Modern Operating Systems by Andrew S. Tanenbaum
 
 ## The Challenge
-To prove your skills please take this challenge: https://app.mooqita.org/app/solution?challenge_id=ML7NuCxE2BWWvYFbT.
+To prove your skills please take this challenge: In the meantime please use this link to see the challenge:
+https://docs.google.com/document/d/1ENcEp9UpTUxbU5GDlXn5stMt1hlHqDupNAwcBrcdmuQ/edit?usp=sharing
+Afterwards please invite me to your repo with the solution, GitHub ID dschioberg 
 For questions reach out to dschib@berkeley.edu and subscribe to the ISchool slack channel #1d-computing-basics.
 
 
